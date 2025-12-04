@@ -1,4 +1,9 @@
-/* General */
+:root {
+  /* Typography */
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Lora", serif;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
