@@ -65,3 +65,12 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+#mobile-nav-list li {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+#mobile-nav-list li a {
+  text-decoration: none;
+}
