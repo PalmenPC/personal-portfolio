@@ -20,7 +20,7 @@ body {
 /* Header */
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0.8rem;
   font-family: var(--primary-font);
@@ -44,7 +44,6 @@ header {
   padding: 0;
   border: none;
   background-color: transparent;
-  margin-left: auto;
   cursor: pointer;
 }
 
@@ -98,4 +97,20 @@ header {
 #mobile-nav-list li a {
   color: var(--secondary-font-color);
   text-decoration: none;
+}
+
+#desktop-nav-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+#desktop-nav-list li {
+  margin: 0 0.8rem;
+  list-style: none;
+}
+
+#desktop-nav-list li a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
 }
