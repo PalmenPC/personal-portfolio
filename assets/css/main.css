@@ -19,6 +19,7 @@ body {
 
 /* Header */
 header {
+  height: 2.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,6 +88,7 @@ header {
 #mobile-nav-list {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 #mobile-nav-list li {
