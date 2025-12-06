@@ -1,0 +1,13 @@
+#work-gallery {
+  display: grid;
+  margin: 0 1.4rem;
+}
+
+.work-title {
+  margin-bottom: 0;
+}
+
+.work-category {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
