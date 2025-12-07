@@ -30,6 +30,7 @@ header {
   font-weight: 900;
   font-size: 1.4rem;
   background-color: var(--primary-color);
+  /* background-color: transparent; */
 }
 
 #wordmark {

@@ -1,3 +1,9 @@
+#hero-section {
+  background-color: red;
+  height: 80vh;
+  margin: 0;
+}
+
 #work-gallery {
   display: grid;
   margin: 0 1.4rem;
