@@ -1,6 +1,17 @@
 #hero-section {
-  background-color: red;
-  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 2rem;
+  background-color: var(--secondary-color);
+}
+
+#hero-section-image {
+  height: 20rem;
+  object-fit: contain;
+}
+
+#hero-section-title {
   margin: 0;
 }
 
