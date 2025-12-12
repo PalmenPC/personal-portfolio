@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-  gap: 0;
-  margin: 0 2rem 4rem 2rem;
+  gap: 1rem;
+  margin: 0 2rem 2rem 2rem;
 }
 
 .work-details-item {
@@ -13,4 +13,13 @@
 
 .work-video {
   width: 100%;
+}
+
+/* Media queries */
+@media screen and (min-width: 800px) {
+  .work-details-item {
+    width: 100%;
+    object-fit: cover;
+    max-width: 50rem;
+  }
 }
