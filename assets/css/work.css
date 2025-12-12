@@ -1,0 +1,18 @@
+#work-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 1rem;
+  margin: 2rem 0 4rem 0;
+}
+
+.work-thumbnail {
+  width: 20rem;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.work-title,
+.work-category {
+  margin: 0;
+}

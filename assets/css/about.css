@@ -1,0 +1,7 @@
+#about-section {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}

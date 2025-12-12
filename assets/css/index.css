@@ -16,37 +16,3 @@
 #hero-section-title {
   margin: 0;
 }
-
-#work-gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
-  gap: 1rem;
-  margin: 2rem 0 0 0;
-}
-
-.work-thumbnail {
-  width: 20rem;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-
-.work-title,
-.work-category {
-  margin: 0;
-}
-
-#about-section {
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-#contact-section {
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  margin-bottom: 2rem;
-}
