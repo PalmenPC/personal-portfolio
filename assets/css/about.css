@@ -9,3 +9,21 @@
   max-width: 30rem;
   margin: 0 2rem;
 }
+
+#education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 1rem;
+}
+
+#education-list li {
+  margin: 0.4rem 0;
+  padding: 0.8rem;
+  color: var(--secondary-font-color);
+  background-color: var(--primary-color);
+}
+
+#education-list li a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
