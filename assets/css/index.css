@@ -17,14 +17,22 @@
 
 #work-gallery {
   display: grid;
-  margin: 0 1.4rem;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 2rem;
+}
+
+.work-thumbnail {
+  width: 20rem;
+  aspect-ratio: 16 / 9;
+
+  object-fit: cover;
 }
 
 .work-title {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .work-category {
-  margin-top: 0.5rem;
-  margin-bottom: 0;
+  margin: 0;
 }
