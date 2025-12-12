@@ -19,8 +19,9 @@ body {
   background-color: var(--secondary-color);
 }
 
-h2 {
+h1 {
   text-align: center;
+  font-family: var(--primary-font);
 }
 
 /* Header */
@@ -34,7 +35,6 @@ header {
   font-weight: 900;
   font-size: 1.4rem;
   background-color: var(--primary-color);
-  /* background-color: transparent; */
 }
 
 #wordmark {
@@ -79,17 +79,15 @@ header {
   top: 3.6rem;
   right: 0;
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   background-color: var(--primary-color);
   text-align: center;
   visibility: hidden;
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 #mobile-nav.open {
   visibility: visible;
-  opacity: 0.9;
 }
 
 #mobile-nav-list {
