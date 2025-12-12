@@ -1,0 +1,12 @@
+#work-details-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 0;
+  margin: 0 2rem 4rem 2rem;
+}
+
+.work-details-item {
+  width: 100%;
+  object-fit: cover;
+}
