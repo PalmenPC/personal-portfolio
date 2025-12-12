@@ -9,17 +9,9 @@
 .work-details-item {
   width: 100%;
   object-fit: cover;
+  max-width: 50rem;
 }
 
 .work-video {
   width: 100%;
-}
-
-/* Media queries */
-@media screen and (min-width: 800px) {
-  .work-details-item {
-    width: 100%;
-    object-fit: cover;
-    max-width: 50rem;
-  }
 }
